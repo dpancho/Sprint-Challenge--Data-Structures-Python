@@ -61,3 +61,4 @@ class LinkedList:
 
             current.set_next(right)
             self.head = current
+

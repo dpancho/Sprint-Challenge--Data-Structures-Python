@@ -13,11 +13,15 @@ f.close()
 duplicates = []  # Return the list of duplicates in this data structure
 
 # Replace the nested for loops below with your improvements
+# new dictionary to store names
 names2_dict = {}
 
+# Store each name once,. 
 for name in names_2:
     names2_dict[name] = 1
+    # print (names2_dict)
 
+# comapre list and if duplicates, append to dupilicates list
 for name in names_1:
     if names2_dict.get(name) == None:
         pass
