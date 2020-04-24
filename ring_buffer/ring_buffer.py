@@ -1,6 +1,5 @@
 from doubly_linked_list import DoublyLinkedList
 
-
 class RingBuffer:
     def __init__(self, capacity):
         self.capacity = capacity
@@ -46,7 +45,6 @@ class RingBuffer:
                 nxt = self.storage.head
 
         # this loop through each node and appends the values
-
         return list_buffer_contents
 
 # ----------------Stretch Goal-------------------
